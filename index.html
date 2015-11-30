@@ -6,9 +6,30 @@
 		<script src="StudentsController.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 	</head>
 	<body >
+		<header>
+			<nav class="main-navigation-angular">
+		<ul>
+			<li><a href="https://www.linkedin.com/in/jon-hinson-00756464" target="_blank">linkedin</a></li>
+			<li><a href="https://github.com/Hinson7886" target="_blank">Github</a></li>
+			<li><a href="resume.html" target="_blank">Resume</a></li>
+			<li><a href="http://hinson7886.github.io/student_directory/" target="_blank">AngularJS</a></li>
+			<li><a href="http://jonhinsonfx.wix.com/jon-hinson-fx" target="_blank">3D</a></li>
+		</ul>	
+	</nav>
+			<div class="jumbotron">
+				<div class="container">
+  				<h2>Student roster app made in AngularJS</h2>
+					
+					<p>Give it a try. You can create students,edit them by clicking the name,filter students and delete them as well.</p>
+  				</div>
+			</div>
+
+		</header>
 		
 		<div class="container" ng-controller="StudentsCtrl">
 			<div class="row" ng-show="students.length">
